@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/.bashrc: .bashrc
+    ~/.bash_profile: .bash_profile
+    ~/.bash_prompt: .bash_prompt
+    ~/git-prompt.sh: git-prompt.sh
+    ~/git-completion.bash: git-completion.bash
+    ~/.aliases: .aliases
+    ~/.exports: .exports
+
+    ~/.tmux.conf: .tmux.conf
+
+    ~/.vim: .vim
+
+    ~/.vimrc: .vimrc
