@@ -16,3 +16,6 @@
     ~/.vim: .vim
 
     ~/.vimrc: .vimrc
+
+    ~/.gitconfig: .gitconfig
+    ~/.gitignore: .gitignore
