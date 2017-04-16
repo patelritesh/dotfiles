@@ -19,3 +19,8 @@
 
     ~/.gitconfig: .gitconfig
     ~/.gitignore: .gitignore
+
+- shell:
+   - [ test -d ~/.vim/backups || mkdir ~/.vim/backups, Creating vim backup directory ]
+   - [ test -d ~/.vim/swaps || mkdir ~/.vim/swaps, Creating vim swap directory ]
+   - [ test -d ~/.vim/undo || mkdir ~/.vim/undo, Creating vim undo directory ]
