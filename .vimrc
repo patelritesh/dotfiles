@@ -94,8 +94,6 @@ set nostartofline
 set ruler
 " Don’t show the intro message when starting Vim
 set shortmess=atI
-" Show the current mode
-set showmode
 " Show the filename in the window titlebar
 set title
 " Show the (partial) command as it’s being typed
@@ -128,6 +126,8 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
+    " two space indent for yaml
+    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 endif
 
 " https://github.com/junegunn/vim-plug
