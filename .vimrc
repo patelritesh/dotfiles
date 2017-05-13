@@ -66,8 +66,8 @@ set expandtab               " Use spaces, not tabs, for autoindent/tab key.
 
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-#don't like list for now
-#set list
+" don't like list for now
+" set list
 " Highlight searches
 set hlsearch
 " Ignore case of searches
