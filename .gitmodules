@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "bbdotfiles"]
+	path = bbdotfiles
+	url = git@bbgithub.dev.bloomberg.com:rpatel31/bbdotfiles.git
