@@ -60,8 +60,10 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
+" Make tabs as wide as four spaces
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab               " Use spaces, not tabs, for autoindent/tab key.
 
 " Show “invisible” characters
@@ -123,6 +125,8 @@ noremap <leader>W :w !sudo tee % > /dev/null<CR>
 if has("autocmd")
     " Enable file type detection
     filetype on
+    " Use filetype detection and file-based automatic indenting.
+    filetype plugin indent on
     " Treat .json files as .js
     autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
     " Treat .md files as Markdown
