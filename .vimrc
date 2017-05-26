@@ -1,7 +1,12 @@
 " Use the Solarized Dark theme
+" in bbenv use desert theme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+if $bbenv == 'true'
+    colorscheme desert
+else
+    colorscheme solarized
+    let g:solarized_termtrans=1
+endif
 
 " use 256 colors in terminal
 if !has("gui_running")
