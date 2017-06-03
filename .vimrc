@@ -1,7 +1,7 @@
 " Use the Solarized Dark theme
 " in bbenv use desert theme
 set background=dark
-if $bbenv == 'true'
+if $bbenv == "Yes"
     colorscheme desert
 else
     colorscheme solarized
