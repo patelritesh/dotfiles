@@ -10,6 +10,7 @@
     ~/git-completion.bash: git-completion.bash
     ~/.aliases: .aliases
     ~/.exports: .exports
+    ~/.path: .path
 
     ~/.tmux.conf: .tmux.conf
 
