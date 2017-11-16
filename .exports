@@ -33,3 +33,4 @@ export MANPAGER='less -X';
 
 #use local Go installation
 export GOROOT=${HOME}/go1.8.3
+export GOPATH=${HOME}/go
