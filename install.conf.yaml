@@ -23,6 +23,7 @@
 
     ~/.bbexports: bbdotfiles/.bbexports
     ~/.bbpath: bbdotfiles/.bbpath
+    ~/.bbaliases: bbdotfiles/.bbaliases
 
 - shell:
    - [ test -d ~/.vim/backups || mkdir ~/.vim/backups, Creating vim backup directory ]
