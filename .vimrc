@@ -144,6 +144,7 @@ endif
 " Reload .vimrc and :PlugInstall to install plugins.
 call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
+Plug 'edkolev/tmuxline.vim'
 Plug 'Valloric/YouCompleteMe'
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'nvie/vim-flake8'
